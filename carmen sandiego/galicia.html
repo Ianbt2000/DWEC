@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>galicia</title>
+</head>
+<body>
+    <script>
+        var V; //volumen total
+        var r; //radio de la cabeza
+        var h; //altura del cono
+        var pi = 3.1416;
+        var r2;
+        var h2;
+
+
+        r=prompt("asigne el radio de la cabeza");
+        r=parseInt(r)
+        h=prompt("asigne la altura del cono");
+        h=parseInt(h)
+        
+        /*
+        r2=r*r;
+        h2=3*h;
+        h2=h2*pi;
+        r2=r2*h2;
+        X
+        V=1/r2;
+        */
+        V=1/3*h*pi*r*r;
+
+        alert("el volumen es "+V);
+        
+    
+    </script>
+</body>
+</html>
